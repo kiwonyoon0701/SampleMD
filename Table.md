@@ -1,0 +1,17 @@
+## OnPREM3.yml
+
+| Purpose       | Version-ID            | AMI-DESC                     | DESC                                          |
+| ------------- | --------------------- | ---------------------------- | --------------------------------------------- |
+| OnPREM VPC    | OnPREM3.yml           | VPC                          | OnPREM VPC(10.100.0.0/16)                     |
+|               |                       | Subnet                       | 2 Public, 2 Private Subnet                    |
+|               |                       | EC2                          | Oracle-11gR2, Tomcat8, Windows2019            |
+|               |                       | Profile                      | SSMProfile for EC2 instances                  |
+|               |                       | Oracle Info                  | PublicSubnet1, 10.100.1.101                   |
+|               |                       | Tomcat Info                  | PublicSubnet1, 10.100.1.102                   |
+|               |                       | Window Info                  | PublicSubnet1, 10.100.1.103                   |
+| ============= | ===================== | ============================ | ============================================= |
+
+
+| 1   | 2   | 3   | 4   | 6   | 7   | 8   |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1   | 2   | 3   | 4   | 6   | 7   | 8   |
